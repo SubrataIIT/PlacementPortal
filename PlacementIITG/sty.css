@@ -1,0 +1,376 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input select {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.st_cp {
+    margin: 0% 0% 0% 2%;
+    background-color: #fff;
+    flex-direction: left;
+}
+
+.reg_form2 {
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 18%;
+}
+
+.reg_form {
+    margin: 2% 2%;
+    display: flex;
+}
+
+.reg_form1 {
+    width: 40%;
+    font-size: large;
+    margin: 0% 4% 0% 4%;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    padding: 11% 11%;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    float: right;
+}
+
+input {
+    font-size: large;
+}
+
+.bd {
+    display: flex;
+}
+
+.navbar {
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    height: 100vh;
+}
+
+label {
+    display: block;
+}
+
+.reg_form_j {
+    flex-direction: row-reverse;
+    margin-right: 26%;
+}
+
+.details {
+    size: 10%;
+    display: block;
+    color: blue;
+    margin: 5% 0% 2% 5%;
+}
+
+.form2 {
+    width: 90vw;
+}
+
+.bold {
+    text-decoration: none;
+}
+
+.profile-pic {
+    position: relative;
+    max-width: 130px;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: -31px;
+    margin-left: -7px;
+}
+
+.hea {
+    text-align: center;
+    margin: 3%;
+    color: blue;
+}
+
+.image {
+    height: 100vh;
+    width: 100vw;
+    background: url("543.jpg");
+    background-size: 100vw 100vh;
+}
+
+.nil {
+    margin: 7% 0%;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #e3e2e7;
+    color: rgb(126, 158, 237);
+    font-size: 18px;
+}
+
+.button_f {
+    color: white;
+    background-color: blue;
+    border-radius: 2%;
+    padding: 1% 1%;
+    /* cursor:pointer;  */
+    border: none;
+    display: flex;
+    align-items: center;
+    /* margin-right: 30px; */
+    float: right;
+}
+
+.button_g {
+    color: white;
+    background-color: blue;
+    border-radius: 2%;
+    padding: 1% 1%;
+    /* cursor:pointer;  */
+    border: none;
+    display: flex;
+    align-items: center;
+    /* margin-right: 30px; */
+    /* float: right; */
+}
+
+.reg_form_f {
+    margin: 1% 2%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: white;
+    box-shadow: none;
+    height: 0;
+}
+
+nav i {
+    padding: 0 15px;
+    position: relative;
+    top: 5px;
+}
+
+dd {
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+ul.side-nav {
+    width: 190px;
+}
+
+ul.side-nav li {
+    padding: 0;
+}
+
+ul.side-nav.fixed a {
+    box-sizing: content-box;
+    /* color: rgb(16, 202, 56); */
+    display: block;
+    line-height: 100%;
+    padding: 10px 0 12px;
+}
+
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
+    border: none;
+    font-weight: 200;
+}
+
+ul.side-nav.fixed li.logo {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+}
+
+ul.side-nav.fixed li.logo a {
+    font-weight: 200;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
+    /* color: white;
+    background-color: blue; */
+}
+
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {}
+
+li.logo span {
+    display: block;
+    font-size: 14px;
+}
+
+.brand-logo h1 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    font-weight: inherit;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+    background-color: rgba(33, 150, 243, 0.2);
+}
+
+a.hoverline:hover {}
+
+small {
+    display: none;
+}
+
+.teal-text {
+    color: blue!important;
+}
+
+@media (min-width: 1200px) {
+    #experience .container {
+        width: 860px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .card ul li {
+        font-size: 14px;
+        line-height: 200%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .card ul li {
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        padding-left: 0px;
+        padding-top: 64px;
+    }
+    ul.side-nav a {
+        line-height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+    nav {
+        background: #fff;
+        height: 64px;
+        position: absolute;
+    }
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        color: #009688;
+        height: 56px;
+        line-height: 56px;
+    }
+    h3 {
+        padding: 20px 30px;
+        margin-bottom: 40px;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    nav.hide-on-large.only.trigger {
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .name-title {
+        display: block;
+        height: 100%;
+        padding-top: 15px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+    .name-title>span,
+    .name-title>a {
+        position: relative;
+        line-height: 20px;
+    }
+    .name-title a {
+        font-size: 22px;
+        display: block;
+    }
+    .name-title span {
+        display: block;
+        font-size: 14px;
+    }
+    h3,
+    .container {
+        position: relative;
+        top: 64px;
+    }
+    section#intro {
+        margin-bottom: -64px;
+    }
+    .card .role {
+        position: relative;
+        right: initial;
+        top: initial;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 22px;
+        line-height: 200%;
+        margin: 30px 0 0;
+    }
+    #intro.section .container *:not(span) {
+        padding: 0;
+    }
+    .card .card-content .card-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #experience span.card-title {
+        text-align: center;
+        display: block;
+    }
+    #experience span.card-title a {
+        margin: 0;
+    }
+    i.mdi-navigation-close.right {
+        position: relative;
+        bottom: 15px;
+    }
+    #contact a:not(.btn-floating) {
+        text-align: center;
+        display: block;
+        left: initial;
+        bottom: initial;
+    }
+    #contact a.btn-floating.btn-large {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #intro.section {
+        background-position-x: 30%;
+    }
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-control {
+    font-size: large;
+    padding: 1%;
+}
+
+body {
+    background-color: #c6c6b6;
+    background: url("543.jpg");
+    background-size: 100vw 100vh;
+}
+
+.st_cp {
+    margin: 6% 35%;
+    padding: 20px 10px 60px 10px;
+    background-color: #fff;
+}
+
+.st_cp2 {
+    margin: 6% 32%;
+    padding: 20px 10px 60px 10px;
+    background-color: #fff;
+}
+
+.form {
+    display: block;
+    margin: 5%;
+}
+
+.pic1 {
+    display: block;
+    justify-content: center;
+    height: 20vh;
+    margin-left: 39%;
+    align-items: center;
+    
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+img {
+    height: 80%;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border-radius: 2%;
+    padding: 2% 4%;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    float: right;
+}
+
+.signup {
+    text-decoration: none;
+    color: #fff;
+}
+
+.la {
+    display: block;
+}
+
+.form2 {
+    display: block;
+    font-size: large;
+    margin-left: 5%;
+}
